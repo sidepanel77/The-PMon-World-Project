@@ -3890,3 +3890,136 @@ LoseText = I'm not much good in battle.
 Pokemon = GEODUDE,48
 Pokemon = GRAVELER,48
 Pokemon = GRAVELER,48
+#-------------------------------
+# HGSS Trainers
+#-------------------------------
+# Route 29 [No Trainers]
+#-------------------------------
+# Cherrygrove City
+#-------------------------------
+[HGSS_Rival,Passerby Boy]
+LoseText = ...Humph! Are you happy you won?
+Pokemon = CHIKORITA,5
+	Gender = male
+#-------------------------------
+[HGSS_Rival,Passerby Boy,1]
+LoseText = ...Humph! Are you happy you won?
+Pokemon = CYNDAQUIL,5
+	Gender = male
+#-------------------------------
+[HGSS_Rival,Passerby Boy,2]
+LoseText = ...Humph! Are you happy you won?
+Pokemon = TOTODILE,5
+	Gender = male
+#-------------------------------
+# Route 30
+#-------------------------------
+[HGSS_Youngster,Joey]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATTATA,4
+#-------------------------------
+[HGSS_Youngster,Joey,1]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATICATE,34
+#-------------------------------
+[HGSS_Youngster,Joey,2]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATICATE,40
+#-------------------------------
+[HGSS_Youngster,Joey,3]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATICATE,54
+#-------------------------------
+[HGSS_Youngster,Mikey]
+LoseText = That's strange. I won before.
+Pokemon = PIDGEY,2
+Pokemon = RATTATA,4
+#-------------------------------
+[HGSS_Bug_Catcher,Don]
+LoseText = Argh! You're too strong!
+Pokemon = CATERPIE,3
+Pokemon = CATERPIE,3
+#-------------------------------
+# Route 31
+#-------------------------------
+[HGSS_Bug_Catcher,Wade]
+LoseText = Awwwww...
+Pokemon = CATERPIE,2
+Pokemon = CATERPIE,2
+Pokemon = CATERPIE,2
+Pokemon = WEEDLE,3
+#-------------------------------
+[HGSS_Bug_Catcher,Wade,1]
+LoseText = Awwwww...
+Pokemon = METAPOD,18
+Pokemon = METAPOD,18
+Pokemon = KAKUNA,22
+Pokemon = BUTTERFREE,29
+#-------------------------------
+[HGSS_Bug_Catcher,Wade,2]
+LoseText = Awwwww...
+Pokemon = BUTTERFREE,28
+Pokemon = BUTTERFREE,28
+Pokemon = BEEDRILL,37
+Pokemon = BUTTERFREE,40
+#-------------------------------
+[HGSS_Bug_Catcher,Wade,3]
+LoseText = Placeholder
+Pokemon = BUTTERFREE,36
+Pokemon = BUTTERFREE,36
+Pokemon = BEEDRILL,43
+Pokemon = BUTTERFREE,52
+#-------------------------------
+# Dark Cave [No Trainers]
+#-------------------------------
+# Sprout Tower
+#-------------------------------
+[HGSS_Sage,Nico]
+LoseText = I fought hard, but I'm too weak.
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[HGSS_Sage,Chow]
+LoseText = Th-thank you!
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[HGSS_Sage,Edmond]
+LoseText = I tried to copy BELLSPROUT's gentle movements for battle... but I didn't train well enough.
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[HGSS_Sage,Jin]
+LoseText = This little squirt made me hurt!
+Pokemon = BELLSPROUT,6
+#-------------------------------
+[HGSS_Sage,Neal]
+LoseText = It is my head that is bright!
+Pokemon = BELLSPROUT,6
+#-------------------------------
+[HGSS_Sage,Troy]
+LoseText = Yes, your trust is real!
+Pokemon = BELLSPROUT,7
+Pokemon = HOOTHOOT,7
+#-------------------------------
+[HGSS_Elder,Li]
+LoseText = Ah, excellent!
+Pokemon = BELLSPROUT,7
+	Moves = VINEWHIP,GROWTH
+Pokemon = BELLSPROUT,7
+	Moves = VINEWHIP,GROWTH
+Pokemon = HOOTHOOT,7
+	Moves = VINEWHIP,GROWTH
+#-------------------------------
+# Violet City
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
