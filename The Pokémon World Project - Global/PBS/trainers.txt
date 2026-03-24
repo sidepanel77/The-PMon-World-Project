@@ -4110,7 +4110,7 @@ Pokemon = SPEAROW,8
 #-------------------------------
 # Ruins of Alph
 #-------------------------------
-[HGSS_PSYCHIC_M,Nathan]
+[HGSS_PSYCHIC,Nathan]
 LoseText = ...
 Pokemon = GIRAFARIG,26
 #-------------------------------
@@ -4211,7 +4211,7 @@ LoseText = You rotten brat!
 Pokemon = ZUBAT,9
 Pokemon = EKANS,11
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,1]
 LoseText = Just... Too strong...
 Pokemon = RATTATA,7
 Pokemon = ZUBAT,9
@@ -4434,18 +4434,18 @@ Pokemon = MILTANK,19
 #-------------------------------
 # 1F
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,2]
 LoseText = Y-you’re strong...
 Pokemon = RATICATE,24
 Pokemon = RATICATE,24
 #-------------------------------
 # 2F
 #-------------------------------
-[HGSS_TEAMROCKET_F,Grunt]
+[HGSS_TEAMROCKET_F,Grunt,1]
 LoseText = Wh-who are you?
 Pokemon = ARBOK,26
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,3]
 LoseText = You think you’re a hero?
 Pokemon = RATTATA,21
 Pokemon = RATTATA,21
@@ -4453,12 +4453,12 @@ Pokemon = RATTATA,23
 Pokemon = RATTATA,23
 Pokemon = RATTATA,23
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,4]
 LoseText = Arggh. I give up.
 Pokemon = ZUBAT,26
 Pokemon = ZUBAT,26
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,5]
 LoseText = Gwah! Don’t get cute!
 Pokemon = GRIMER,23
 Pokemon = GRIMER,23
@@ -4466,7 +4466,7 @@ Pokemon = MUK,25
 #-------------------------------
 # 3F
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,6]
 LoseText = !!!
 Pokemon = KOFFING,23
 Pokemon = ZUBAT,23
@@ -4479,18 +4479,18 @@ Pokemon = MAGNEMITE,27
 Pokemon = MAGNEMITE,27
 Pokemon = MAGNEMITE,27
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,7]
 LoseText = You’re kidding!
 Pokemon = WEEZING,26
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,8]
 LoseText = Gulp! This is a bleak moment.
 Pokemon = RATICATE,24
 Pokemon = KOFFING,26
 #-------------------------------
 # 4F
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,9]
 LoseText = No!
 Pokemon = ZUBAT,22
 Pokemon = GOLBAT,24
@@ -4500,7 +4500,7 @@ Pokemon = GRIMER,22
 LoseText = Hmmm... All grand plans come with snags.
 Pokemon = PORYGON,30
 #-------------------------------
-[HGSS_TEAMROCKET_F,Grunt]
+[HGSS_TEAMROCKET_F,Grunt,2]
 LoseText = Oh, no! They’re so useless!
 Pokemon = EKANS,21
 Pokemon = EKANS,21
@@ -4510,7 +4510,7 @@ Pokemon = GLOOM,24
 [HGSS_ROCKETADMIN_Proton,Proton]
 LoseText = Phew...
 Pokemon = GOLBAT,28
-	Moves = WINGATTACK,CONFUSERAY,LEECHLIFE,BITE
+	Moves = WINGATTACK,CONFUSERAY,ABSORB,BITE
 Pokemon = WEEZING,33
 	Moves = SLUDGE,DOUBLEHIT,SMOKESCREEN,SMOG
 #-------------------------------
@@ -4608,11 +4608,11 @@ Pokemon = SNEASEL,34
 Pokemon = FERALIGATR,32
 	Moves = WATERGUN,ICEFANG,CRUNCH,THRASH
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,10]
 LoseText = Urk! Yeah, think you’re cool, huh?
 Pokemon = RATTATA,27
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,11]
 LoseText = Uh-oh! I was sunk by indecision!
 Pokemon = MUK,23
 Pokemon = KOFFING,23
@@ -4629,29 +4629,29 @@ LoseText = So strong...
 Pokemon = GROWLITHE,26
 Pokemon = KOFFING,24
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,12]
 LoseText = Uwww... I blew it.
 Pokemon = KOFFING,24
 Pokemon = MUK,24
 #-------------------------------
-[HGSS_TEAMROCKET_F,Grunt]
+[HGSS_TEAMROCKET_F,Grunt,3]
 LoseText = How could you?
 Pokemon = GLOOM,25
 Pokemon = GLOOM,25
 #-------------------------------
 # Goldenrod Tunnel - Warehouse
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,13]
 LoseText = Blast it!
 Pokemon = RATICATE,24
 Pokemon = GOLBAT,24
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,14]
 LoseText = Hyuck-hyuck-hyuck! So that’s how you did it!
 Pokemon = GRIMER,26
 Pokemon = WEEZING,23
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,15]
 LoseText = I got disposed of...
 Pokemon = KOFFING,25
 Pokemon = KOFFING,25
@@ -4818,7 +4818,7 @@ Pokemon = MAROWAK,54
 #-------------------------------
 # Route 36
 #-------------------------------
-[HGSS_PSYCHIC_M,Mark]
+[HGSS_PSYCHIC,Mark]
 LoseText = 
 Pokemon = ABRA,14
 Pokemon = ABRA,14
@@ -4866,13 +4866,13 @@ LoseText =
 Pokemon = WIGGLYTUFF,16
 Pokemon = CLEFABLE,16
 #-------------------------------
-[HGSS_PSYCHIC_M,Greg]
+[HGSS_PSYCHIC,Greg]
 LoseText = 
 Pokemon = DROWZEE,17
 #-------------------------------
 # Ecruteak City
 #-------------------------------
-[HGSS_TEAMROCKET_M,Grunt]
+[HGSS_TEAMROCKET_M,Grunt,16]
 LoseText = 
 Pokemon = KOFFING,12
 #-------------------------------
@@ -4982,61 +4982,268 @@ Pokemon = CHARMELEON,18
 #-------------------------------
 # Route 38
 #-------------------------------
-[HGSS_,]
+[HGSS_SAILOR,Harry]
 LoseText = 
-Pokemon = 
+Pokemon = WOOPER,20
 #-------------------------------
-[HGSS_,]
+[HGSS_LASS,Dana]
 LoseText = 
-Pokemon = 
+Pokemon = FLAAFFY,19
+Pokemon = PSYDUCK,19
+#-------------------------------
+[HGSS_LASS,Dana,1]
+LoseText = 
+Pokemon = FLAAFFY,32
+Pokemon = PSYDUCK,31
+#-------------------------------
+[HGSS_LASS,Dana,2]
+LoseText = 
+Pokemon = GOLDUCK,36
+Pokemon = AMPHAROS,38
+#-------------------------------
+[HGSS_LASS,Dana,3]
+LoseText = 
+Pokemon = GOLDUCK,51
+Pokemon = AMPHAROS,54
+#-------------------------------
+[HGSS_BIRDKEEPER,Toby]
+LoseText = 
+Pokemon = DODUO,16
+Pokemon = DODUO,17
+Pokemon = DODUE,18
+#-------------------------------
+[HGSS_SCHOOLKID,Chad]
+LoseText = 
+Pokemon = MRMIME,20
+#-------------------------------
+[HGSS_SCHOOLKID,Chad,1]
+LoseText = 
+Pokemon = MRMIME,29
+Pokemon = MAGNEMITE,30
+#-------------------------------
+[HGSS_SCHOOLKID,Chad,2]
+LoseText = 
+Pokemon = MRMIME,39
+Pokemon = MAGNETON,38
+#-------------------------------
+[HGSS_SCHOOLKID,Chad,3]
+LoseText = 
+Pokemon = MRMIME,46
+Pokemon = MAGNETON,56
+#-------------------------------
+[HGSS_BEAUTY,Valerie]
+LoseText = 
+Pokemon = HOPPIP,18
+Pokemon = SKIPLOOM,18
 #-------------------------------
 # Route 39
 #-------------------------------
-[HGSS_,]
+[HGSS_PSYCHIC,Nelson]
 LoseText = 
-Pokemon = 
+Pokemon = SLOWPOKE,17
+Pokemon = SLOWPOKE,20
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
+[HGSS_SAILOR,Eugene]
+LoseText = Awaaargh!
+Pokemon = POLIWHIRL,17
+Pokemon = RATICATE,17
+Pokemon = KRABBY,19
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
+[HGSS_POKEFAN_M,Derek]
+LoseText = I couldn't brag...
+Pokemon = PIKACHU,17
+#-------------------------------
+[HGSS_POKEFAN_M,Derek,1]
+LoseText = I couldn't brag...
+Pokemon = TEDDIURSA,24
+Pokemon = PIKACHU,30
+#-------------------------------
+[HGSS_POKEFAN_M,Derek,2]
+LoseText = I couldn't brag...
+Pokemon = PICHU,13
+Pokemon = TEDDIURSA,15
+Pokemon = TEDDIURSA,29
+Pokemon = PIKACHU,37
+#-------------------------------
+[HGSS_POKEFAN_M,Derek,3]
+LoseText = I couldn't brag...
+Pokemon = PICHU,18
+Pokemon = TEDDIURSA,22
+Pokemon = URSARING,47
+Pokemon = PIKACHU,39
+#-------------------------------
+[HGSS_POKEFAN_F,Ruth]
+LoseText = I don't mind losing.
+Pokemon = PIKACHU,17
 #-------------------------------
 # Olivine City
 #-------------------------------
 # Olivine City Lighthouse
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
+[HGSS_GENTLEMAN,Alfred]
+LoseText = Ah! I can see you’re serious.
+Pokemon = NOCTOWL,22
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
+[HGSS_GENTLEMAN,Alfred,1]
+LoseText = Ah! I can see you’re serious.
+Pokemon = NOCTOWL,36
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
+[HGSS_GENTLEMAN,Alfred,2]
+LoseText = Ah! I can see you’re serious.
+Pokemon = NOCTOWL,42
+#-------------------------------
+[HGSS_GENTLEMAN,Alfred,3]
+LoseText = Ah! I can see you’re serious.
+Pokemon = NOCTOWL,58
+#-------------------------------
+[HGSS_SAILOR,Huey]
+LoseText = Urf! I lose!
+Pokemon = POLIWAG,18
+Pokemon = POLIWHIRL,20
+#-------------------------------
+[HGSS_SAILOR,Huey,1]
+LoseText = Urf! I lose!
+Pokemon = POLIWHIRL,34
+Pokemon = POLIWHIRL,36
+#-------------------------------
+[HGSS_SAILOR,Huey,2]
+LoseText = Urf! I lose!
+Pokemon = POLIWHIRL,38
+Pokemon = POLIWRATH,41
+#-------------------------------
+[HGSS_SAILOR,Huey,3]
+LoseText = Urf! I lose!
+Pokemon = POLITOED,48
+Pokemon = POLIWRATH,52
+#-------------------------------
+[HGSS_BIRDKEEPER,Theo]
+LoseText = You really are concerned...
+Pokemon = PIDGEY,17
+Pokemon = PIDGEY,15
+Pokemon = PIDGEY,19
+Pokemon = PIDGEY,15
+Pokemon = PIDGEY,15
+#-------------------------------
+[HGSS_SAILOR,Kent]
+LoseText = I can’t manage a smile, either...
+Pokemon = KRABBY,18
+Pokemon = KRABBY,20
+#-------------------------------
+[HGSS_BIRDKEEPER,Denis]
+LoseText = Oops... They crashed...
+Pokemon = SPEAROW,18
+Pokemon = FEAROW,20
+Pokemon = SPEAROW,18
+#-------------------------------
+[HGSS_GENTLEMAN,Preston]
+LoseText = ...Aww... I must train some more...
+Pokemon = GROWLITHE,18
+Pokemon = GROWLITHE,18
+#-------------------------------
+[HGSS_LASS,Connie]
+LoseText = Aaack! My Pokémon!
+Pokemon = MARILL,21
+#-------------------------------
+[HGSS_SAILOR,Terrell]
+LoseText = You are both kind and strong...
+Pokemon = POLIWHIRL,20
+#-------------------------------
+[HGSS_SAILOR,Roberto]
+LoseText = Whoa, whoa. You’re overwhelming!
+Pokemon = MACHOP,18
+Pokemon = MACHOP,18
+Pokemon = POLIWHIRL,18
 #-------------------------------
 # Olivine City Gym
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
-#-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
-#-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
+[HGSS_LEADER_Jasmine,Jasmine]
+LoseText = Well done...
+Pokemon = MAGNEMITE,30
+	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
+Pokemon = MAGNEMITE,30
+	AbilityIndex = 1
+	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
+Pokemon = STEELIX,35
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = IRONTAIL,ROCKTHROW,SANDSTORM,SCREECH
 #-------------------------------
 # Route 40
 #-------------------------------
+[HGSS_SWIMMER_M,Simon]
+LoseText = OK! I give up!
+Pokemon = TENTACOOL,20
+Pokemon = TENTACOOL,20
+#-------------------------------
+[HGSS_SWIMMER_F,Elaine]
+LoseText = I lost that one!
+Pokemon = STARYU,21
+#-------------------------------
+[HGSS_SWIMMER_F,Paula]
+LoseText = Ooh, I’m feeling dizzy!
+Pokemon = STARYU,19
+Pokemon = SHELLDER,19
+#-------------------------------
+[HGSS_SWIMMER_M,Randall]
+LoseText = Uh-oh. I lost...
+Pokemon = SHELLDER,18
+Pokemon = WARTORTLE,20
+Pokemon = SHELLDER,18
+#-------------------------------
 # Route 41
+#-------------------------------
+[HGSS_SWIMMER_M,Charlie]
+LoseText = Yikes! I’ve got prune skin!
+Pokemon = SHELLDER,21
+Pokemon = TENTACOOL,19
+Pokemon = TENTACRUEL,19
+#-------------------------------
+[HGSS_SWIMMER_M,George]
+LoseText = Pant, pant...
+Pokemon = TENTACOOL,16
+Pokemon = TENTACOOL,16
+Pokemon = TENTACOOL,17
+Pokemon = TENTACOOL,17
+Pokemon = REMORAID,19
+Pokemon = STARYU,19
+#-------------------------------
+[HGSS_SWIMMER_F,Susie]
+LoseText = I'm crushed...
+Pokemon = PSYDUCK,20
+Pokemon = GOLDEEN,22
+#-------------------------------
+[HGSS_SWIMMER_F,Kaylee]
+LoseText = Is that how you do it?
+Pokemon = GOLDEEN,18
+Pokemon = GOLDEEN,20
+Pokemon = SEAKING,20
+#-------------------------------
+[HGSS_SWIMMER_M,Matthew]
+LoseText = Ooh, you’ve got great endurance!
+Pokemon = KRABBY,23
+#-------------------------------
+[HGSS_SWIMMER_F,Wendy]
+LoseText = Oh, dear...
+Pokemon = HORSEA,21
+Pokemon = HORSEA,21
+#-------------------------------
+[HGSS_SWIMMER_M,Berke]
+LoseText = What’s the secret to your strength?
+Pokemon = QWILFISH,23
+#-------------------------------
+[HGSS_SWIMMER_F,Kara]
+LoseText = Oh! You have more energy than I do.
+Pokemon = STARYU,20
+Pokemon = STARMIE,20
+#-------------------------------
+[HGSS_SWIMMER_M,Ronald]
+LoseText = I'm beat!
+Pokemon = GYARADOS,20
+Pokemon = GYARADOS,20
+#-------------------------------
+[HGSS_SWIMMER_F,Denise]
+LoseText = Ohhh!
+Pokemon = SEEL,22
 #-------------------------------
 # Whirl Islands [No Trainers]
 #-------------------------------
@@ -5044,50 +5251,819 @@ Pokemon =
 #-------------------------------
 # Cianwood City Gym
 #-------------------------------
+[HGSS_BLACKBELT,Yoshi]
+LoseText = This isn't real!
+Pokemon = HITMONLEE,27
+#-------------------------------
+[HGSS_BLACKBELT,Lao]
+LoseText = That's shocking!
+Pokemon = HITMONCHAN,27
+#-------------------------------
+[HGSS_BLACKBELT,Nob]
+LoseText = ...
+Pokemon = MACHOP,25
+Pokemon = MACHOKE,25
+#-------------------------------
+[HGSS_BLACKBELT,Lung]
+LoseText = I got shattered!
+Pokemon = MANKEY,23
+Pokemon = MANKEY,23
+Pokemon = PRIMEAPE,25
+#-------------------------------
+[HGSS_LEADER_Chuck,Chuck]
+LoseText = We...lost...
+Pokemon = PRIMEAPE,29
+	Moves = ROCKSLIDE,DOUBLETEAM,FOCUSPUNCH,LEER
+Pokemon = POLIWRATH,31
+	Item = SITRUSBERRY
+	Moves = SURF,HYPNOSIS,BODYSLAM,FOCUSPUNCH
+#-------------------------------
 # Cliff Edge Gate [No Trainers]
 #-------------------------------
 # Route 47
 #-------------------------------
-# Route 48
+[HGSS_HIKER,Devin]
+LoseText = 
+Pokemon = DUNSPARCE,19
+Pokemon = DUNSPARCE,19
+Pokemon = DUNSPARCE,19
+#-------------------------------
+[HGSS_CAMPER,Grant]
+LoseText = 
+Pokemon = SKIPLOOM,21
+Pokemon = MARILL,21
+#-------------------------------
+[HGSS_DOUBLETEAM,Thom & Kae]
+LoseText = 
+Pokemon = MAGMAR,25
+Pokemon = ELECTABUZZ,25
+#-------------------------------
+[HGSS_YOUNGCOUPLE,Duff & Eda]
+LoseText = 
+Pokemon = CLOYSTER,22
+Pokemon = ONIX,22
+#-------------------------------
+# Cliff Cave [No Trainers]
+#-------------------------------
+# Route 48 [No Trainers]
 #-------------------------------
 # Safari Zone Gate [No Trainers]
 #-------------------------------
 # Route 42
 #-------------------------------
+[HGSS_FISHERMAN,Tully]
+LoseText = What? That's not right.
+Pokemon = QWILFISH,19
+#-------------------------------
+[HGSS_FISHERMAN,Tully,1]
+LoseText = What? That's not right.
+Pokemon = QWILFISH,33
+#-------------------------------
+[HGSS_FISHERMAN,Tully,2]
+LoseText = What? That's not right.
+Pokemon = GOLDEEN,30
+Pokemon = GOLDEEN,30
+Pokemon = QWILFISH,38
+#-------------------------------
+[HGSS_FISHERMAN,Tully,3]
+LoseText = What? That's not right.
+Pokemon = SEAKING,41
+Pokemon = SEAKING,50
+Pokemon = QWILFISH,53
+#-------------------------------
+[HGSS_POKEMANIAC,Shane]
+LoseText = 
+Pokemon = NIDORINA,17
+Pokemon = NIDORINA,17
+#-------------------------------
+[HGSS_HIKER,Benjamin]
+LoseText = 
+Pokemon = DIGLETT,15
+Pokemon = GEODUDE,15
+Pokemon = DUGTRIO,17
+#-------------------------------
 # Mt. Mortar
+#-------------------------------
+[HGSS_POKEMANIAC,Harrison]
+LoseText = 
+Pokemon = NIDOKING,17
+Pokemon = NIDOQUEEN,19
+#-------------------------------
+[HGSS_SUPERNERD,Markus]
+LoseText = 
+Pokemon = SLOWPOKE,19
+#-------------------------------
+[HGSS_SUPERNERD,Hugh]
+LoseText = 
+Pokemon = SEADRA,39
+#-------------------------------
+[HGSS_,Kiyo]
+LoseText = Waaaarggh! I’m beaten!
+Pokemon = HITMONLEE,34
+	Moves = FOCUSENERGY,MINDREADER,HIGHJUMPKICK,FEINT
+Pokemon = HITMONCHAN,34
+	Moves = VACUUMWAVE,THUNDERPUNCH,ICEPUNCH,FIREPUNCH
 #-------------------------------
 # Mahogany Town
 #-------------------------------
 # Mahogany Town Gym
 #-------------------------------
+[HGSS_SKIER,Diana]
+LoseText = 
+Pokemon = JYNX,29
+#-------------------------------
+[HGSS_BOARDER,Patton]
+LoseText = 
+Pokemon = SWINUB,27
+Pokemon = SWINUB,27
+#-------------------------------
+[HGSS_BOARDER,Deandre]
+LoseText = 
+Pokemon = SEEL,25
+Pokemon = DEWGONG,26
+Pokemon = SEEL,25
+#-------------------------------
+[HGSS_SKIER,Jill]
+LoseText = 
+Pokemon = DEWGONG,29
+#-------------------------------
+[HGSS_BOARDER,Gerardo]
+LoseText = 
+Pokemon = SHELLDER,25
+Pokemon = CLOYSTER,26
+Pokemon = SEEL,25
+#-------------------------------
+[HGSS_LEADER_Pryce,Pryce]
+LoseText = 
+Pokemon = SEEL,30
+	Moves = ICYWIND,REST,SNORE,HAIL
+Pokemon = DEWGONG,32
+	Moves = AURORABEAM,REST,SLEEPTALK,ICESHARD
+Pokemon = PILOSWINE,34
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = BLIZZARD,ICEFANG,MUDBOMB,HAIL
+#-------------------------------
 # Team Rocket HQ
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,17]
+LoseText = 
+Pokemon = RATTATA,16
+Pokemon = RATTATA,16
+Pokemon = RATTATA,16
+Pokemon = RATTATA,16
+#-------------------------------
+[HGSS_SCIENTIST,Gregg]
+LoseText = 
+Pokemon = MAGNEMITE,20
+Pokemon = MAGNEMITE,20
+Pokemon = MAGNEMITE,20
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,18]
+# Guard 1
+LoseText = 
+Pokemon = DROWZEE,17
+Pokemon = ZUBAT,19
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,19]
+# Guard 2
+LoseText = 
+Pokemon = ZUBAT,16
+Pokemon = GRIMER,17
+Pokemon = RATTATA,18
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,20]
+LoseText = 
+Pokemon = VENONAT,18
+Pokemon = VENONAT,18
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,21]
+LoseText = 
+Pokemon = GOLBAT,18
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,22]
+LoseText = 
+Pokemon = RATTATA,17
+Pokemon = RATTATA,17
+Pokemon = ZUBAT,17
+#-------------------------------
+[HGSS_PKMNTR_Lance,Lance]
+# Battles alongside player vs. Ariana and Grunt
+LoseText = 
+Pokemon = DRAGONITE,40
+	Moves = FLY,TWISTER,THUNDER,HYPERBEAM
+#-------------------------------
+[HGSS_ROCKETADMIN_Ariana,Ariana]
+# Double Battle with Grunt
+LoseText = 
+Pokemon = ARBOK,25
+	Moves = GLARE,CRUNCH,WRAP,POISONSTING
+Pokemon = GLOOM,25
+	Moves = SWEETSCENT,MEGADRAIN,ACID,SLEEPPOWDER
+Pokemon = MURKROW,27
+	Moves = NIGHTSHADE,WINGATTACK,ASTONISH,PURSUIT
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,23]
+# Double Battle with Ariana
+LoseText = 
+Pokemon = DROWZEE,18
+	Moves = DISABLE,HEADBUTT,CONFUSION,POISONGAS
+Pokemon = GRIMER,20
+	Moves = MUDSLAP,DISABLE,MINIMIZE,SLUDGE
+#-------------------------------
+[HGSS_SCIENTIST,Ross]
+LoseText = 
+Pokemon = KOFFING,22
+Pokemon = KOFFING,22
+#-------------------------------
+[HGSS_TEAMROCKET_F,Grunt,4]
+LoseText = 
+Pokemon = EKANS,18
+Pokemon = GLOOM,18
+#-------------------------------
+[HGSS_SCIENTIST,Mitch]
+LoseText = 
+Pokemon = DITTO,24 
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt,24]
+LoseText = 
+Pokemon = RATICATE,19 
+#-------------------------------
+[HGSS_ROCKETADMIN_Petrel,Petrel]
+LoseText = 
+Pokemon = ZUBAT,22
+	Moves = ASTONISH,BITE,WINGATTACK,CONFUSERAY
+Pokemon = KOFFING,22
+	Moves = SMOG,SMOKESCREEN,ASSURANCE,SELFDESTRUCT
+Pokemon = RATICATE,24
+	Moves = HYPERFANG,SUCKERPUNCH,SCARYFACE,CRUNCH
 #-------------------------------
 # Route 43
 #-------------------------------
+[HGSS_CAMPER,Spencer]
+LoseText = 
+Pokemon = SANDSHREW,18
+Pokemon = SANDSLASH,18
+Pokemon = ZUBAT,20
+#-------------------------------
+[HGSS_PICNICKER,Tiffany]
+LoseText = 
+Pokemon = CLEFAIRY,21
+#-------------------------------
+[HGSS_PICNICKER,Tiffany,1]
+LoseText = 
+Pokemon = CLEFAIRY,34
+#-------------------------------
+[HGSS_PICNICKER,Tiffany,2]
+LoseText = 
+Pokemon = CLEFABLE,41
+#-------------------------------
+[HGSS_PICNICKER,Tiffany,3]
+LoseText = 
+Pokemon = CLEFABLE,61 
+#-------------------------------
+[HGSS_POKEMANIAC,Brent]
+LoseText = 
+Pokemon = NIDORINA,20
+Pokemon = NIDORINO,24
+#-------------------------------
+[HGSS_POKEMANIAC,Brent,1]
+LoseText = 
+Pokemon = NIDORINA,32
+Pokemon = NIODRINO,34
+Pokemon = GYARADOS,32
+#-------------------------------
+[HGSS_POKEMANIAC,Brent,2]
+LoseText = 
+Pokemon = GYARADOS,41
+Pokemon = LICKITUNG,38
+Pokemon = NIDORINA,38
+Pokemon = NIDORINO,43
+#-------------------------------
+[HGSS_POKEMANIAC,Brent,3]
+LoseText = 
+Pokemon = GYARADOS,48
+Pokemon = LICKTUNG,40
+Pokemon = NIDOQUEEN,58
+Pokemon = NIDOKING,58
+#-------------------------------
+[HGSS_POKEMANIAC,Beckett]
+LoseText = 
+Pokemon = SLOWBRO,20 
+#-------------------------------
+[HGSS_POKEMANIAC,Ron]
+LoseText = 
+Pokemon = NIDOKING,20 
+#-------------------------------
+[HGSS_FISHERMAN,Marvin]
+LoseText = 
+Pokemon = MAGIKARP,20
+Pokemon = GYARADOS,20
+Pokemon = MAGIKARP,15
+#-------------------------------
 # Lake of Rage
+#-------------------------------
+[HGSS_FISHERMAN,Andre]
+LoseText = 
+Pokemon = GYARADOS,27 
+#-------------------------------
+[HGSS_FISHERMAN,Raymond]
+LoseText = 
+Pokemon = MAGIKARP,22
+Pokemon = MAGIKARP,22
+Pokemon = MAGIKARP,22
+Pokemon = MAGIKARP,22
+#-------------------------------
+[HGSS_ACETRAINER_F,Lois]
+LoseText = 
+Pokemon = MAREEP,25
+Pokemon = NINETALES,25
+#-------------------------------
+[HGSS_ACETRAINER_M,Alton]
+LoseText = 
+Pokemon = IVYSAUR,24
+Pokemon = CHARMELEON,24
+Pokemon = WARTORTLE,24
 #-------------------------------
 # Route 44
 #-------------------------------
-# Ice Path
+[HGSS_PSYCHIC,Phil]
+LoseText = 
+Pokemon = NATU,27
+Pokemon = KADABRA,29
+#-------------------------------
+[HGSS_FISHERMAN,Edgar]
+LoseText = 
+Pokemon = REMORAID,28
+Pokemon = REMORAID,28
+#-------------------------------
+[HGSS_ACETRAINER_F,Cybil]
+LoseText = 
+Pokemon = MAREEP,29
+Pokemon = BELLOSSOM,29
+#-------------------------------
+[HGSS_ACETRAINER_M,Allen]
+LoseText = 
+Pokemon = CHARMELEON,29
+Pokemon = MAGNEMITE,29
+#-------------------------------
+[HGSS_POKEMANIAC,Zach]
+LoseText = 
+Pokemon = RHYHORN,30 
+#-------------------------------
+[HGSS_FISHERMAN,Wilton]
+LoseText = 
+Pokemon = GOLDEEN,26
+Pokemon = GOLDEEN,26
+Pokemon = SEAKING,28
+#-------------------------------
+[HGSS_FISHERMAN,Wilton,1]
+LoseText = 
+Pokemon = GOLDEEN,32
+Pokemon = GOLDEEN,32
+Pokemon = SEAKING,36
+#-------------------------------
+[HGSS_FISHERMAN,Wilton,2]
+LoseText = 
+Pokemon = GOLDEEN,32
+Pokemon = SEAKING,36
+Pokemon = SEAKING,40
+#-------------------------------
+[HGSS_FISHERMAN,Wilton,3]
+LoseText = 
+Pokemon = SEAKING,42
+Pokemon = SEAKING,46
+Pokemon = SEAKING,63
+#-------------------------------
+[HGSS_BIRDKEEPER,Vance]
+LoseText = 
+Pokemon = HOOTHOOT,28
+Pokemon = PIDGEOTTO,28
+#-------------------------------
+[HGSS_BIRDKEEPER,Vance,1]
+LoseText = 
+Pokemon = HOOTHOOT,33
+Pokemon = PIDGEOTTO,32
+#-------------------------------
+[HGSS_BIRDKEEPER,Vance,2]
+LoseText = 
+Pokemon = PIDGEOTTO,37
+Pokemon = PIDGEOT,38
+Pokemon = NOCTOWL,42
+#-------------------------------
+[HGSS_BIRDKEEPER,Vance,3]
+LoseText = 
+Pokemon = PIDGEOT,56
+Pokemon = PIDGEOT,44
+Pokemon = NOCTOWL,54
+#-------------------------------
+# Ice Path [No Trainers]
 #-------------------------------
 # Blackthorn City
 #-------------------------------
 # Blackthorn City Gym
 #-------------------------------
+[HGSS_ACETRAINER_M,Paulo]
+LoseText = 
+Pokemon = DRATINI,35
+Pokemon = DRATINI,35
+Pokemon = SEADRA,35
+#-------------------------------
+[HGSS_ACETRAINER_F,Lola]
+LoseText = 
+Pokemon = DRATINI,35
+Pokemon = DRAGONAIR,37
+#-------------------------------
+[HGSS_ACETRAINER_M,Cody]
+LoseText = 
+Pokemon = HORSEA,35
+Pokemon = SEADRA,37
+#-------------------------------
+[HGSS_ACETRAINER_F,Fran]
+LoseText = 
+Pokemon = SEADRA,38 
+#-------------------------------
+[HGSS_ACETRAINER_M,Mike]
+LoseText = 
+Pokemon = DRAGONAIR,38 
+#-------------------------------
+[HGSS_LEADER_Clair,Clair]
+LoseText = 
+Pokemon = GYARADOS,38
+	Moves = BITE,TWISTER,DRAGONRAGE,DRAGONPULSE
+Pokemon = DRAGONAIR,38
+	Moves = THUNDERWAVE,SLAM,AQUATAIL,DRAGONPULSE
+Pokemon = DRAGONAIR,38
+	Moves = THUNDERWAVE,SLAM,FIREBLAST,DRAGONPULSE
+Pokemon = KINGDRA,41
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = HYDROPUMP,SMOKESCREEN,HYPERBEAM,DRAGONPULSE
+#-------------------------------
 # Dragon's Den
+#-------------------------------
+[HGSS_ACETRAINER_M,Kobe]
+LoseText = 
+Pokemon = DRAGONAIR,37 
+#-------------------------------
+[HGSS_ACETRAINER_F,Piper]
+LoseText = 
+Pokemon = HORSEA,33
+Pokemon = HORSEA,33
+Pokemon = SEADRA,35
+#-------------------------------
+[HGSS_TWINS,Clea & Gil]
+LoseText = 
+Pokemon = DRATINI,35
+Pokemon = DRATINI,35
+#-------------------------------
+[HGSS_PKMNTR_Silver,Silver,12]
+LoseText = 
+Pokemon = MEGANIUM,60
+	Moves = SYNTHESIS,BODYSLAM,PETALDANCE,LIGHTSCREEN
+Pokemon = CROBAT,58
+	Moves = AIRCUTTER,BITE,TOXIC,CONFUSERAY
+Pokemon = GENGAR,56
+	Moves = DARKPULSE,CONFUSERAY,SLUDGEBOMB,SHADOWBALL
+#-------------------------------
+[HGSS_PKMNTR_Silver,Silver,13]
+LoseText = 
+Pokemon = TYPHLOSION,60
+	Moves = FLAMETHROWER,WILLOWISP,ROLLOUT,SWIFT
+Pokemon = CROBAT,58
+	Moves = AIRCUTTER,BITE,TOXIC,CONFUSERAY
+Pokemon = GENGAR,56
+	Moves = DARKPULSE,CONFUSERAY,SLUDGEBOMB,SHADOWBALL
+#-------------------------------
+[HGSS_PKMNTR_Silver,Silver,14]
+LoseText = 
+Pokemon = FERALIGATR,60
+	Moves = ICEFANG,SLASH,AQUATAIL,CRUNCH
+Pokemon = CROBAT,58
+	Moves = AIRCUTTER,BITE,TOXIC,CONFUSERAY
+Pokemon = GENGAR,56
+	Moves = DARKPULSE,CONFUSERAY,SLUDGEBOMB,SHADOWBALL
+#-------------------------------
+[HGSS_LEADER_Clair,Clair,1]
+LoseText = 
+Pokemon = DRAGONAIR,52
+	Moves = THUNDERWAVE,FLAMETHROWER,DRAGONRUSH,THUNDERBOLT
+Pokemon = KINGDRA,56
+	Moves = ICEBEAM,YAWN,DRAGONBREATH,HYDROPUMP
+Pokemon = DRAGONITE,60
+	Moves = PROTECT,THUNDER,DRAGONBREATH,HYPERBEAM
+#-------------------------------
+[HGSS_CHAMPION,Lance,1]
+LoseText = 
+Pokemon = GYARADOS,68
+	Moves = THUNDERWAVE,DRAGONDANCE,ICEFANG,WATERFALL
+Pokemon = CHARIZARD,68
+	Moves = DRAGONCLAW,AIRSLASH,FLAMETHROWER,HYPERBEAM
+Pokemon = DRAGONITE,75
+	Moves = DRACOMETEOR,FIREPUNCH,SAFEGUARD,HYPERBEAM
 #-------------------------------
 # Route 45
 #-------------------------------
+[HGSS_HIKER,Erik]
+LoseText = 
+Pokemon = MACHOP,24
+Pokemon = GRAVELER,27
+Pokemon = MACHOP,27
+#-------------------------------
+[HGSS_ACETRAINER_M,Ryan]
+LoseText = 
+Pokemon = PIDGEOT,25
+Pokemon = ELECTABUZZ,27
+#-------------------------------
+[HGSS_ACETRAINER_F,Kelly]
+LoseText = 
+Pokemon = MARILL,27
+Pokemon = WARTORTLE,24
+Pokemon = WARTORTLE,24
+#-------------------------------
+[HGSS_HIKER,Parry]
+LoseText = 
+Pokemon = ONIX,30 
+#-------------------------------
+[HGSS_HIKER,Parry,1]
+LoseText = 
+Pokemon = ONIX,38
+Pokemon = GRAVELER,35
+#-------------------------------
+[HGSS_HIKER,Parry,2]
+LoseText = 
+Pokemon = STEELIX,41
+Pokemon = GRAVELER,37
+#-------------------------------
+[HGSS_HIKER,Parry,3]
+LoseText = 
+Pokemon = STEELIX,56
+Pokemon = GOLEM,52
+#-------------------------------
+[HGSS_BLACKBELT,Kenji]
+LoseText = 
+Pokemon = MACHOKE,28
+#-------------------------------
+[HGSS_BLACKBELT,Kenji,1]
+LoseText = 
+Pokemon = ONIX,27
+Pokemon = HITMONLEE,32
+Pokemon = ONIX,27
+Pokemon = MACHOKE,32
+#-------------------------------
+[HGSS_BLACKBELT,Kenji,2]
+LoseText = 
+Pokemon = ONIX,30
+Pokemon = HITMONLEE,41
+Pokemon = ONIX,33
+Pokemon = MACHAMP,37
+#-------------------------------
+[HGSS_BLACKBELT,Kenji,3]
+LoseText = 
+Pokemon = ONIX,41
+Pokemon = HITMONLEE, 53
+Pokemon = ONIX,49
+Pokemon = MACHAMP,53
+#-------------------------------
+[HGSS_HIKER,Timothy]
+LoseText = 
+Pokemon = DIGLETT,27
+Pokemon = DUGTRIO,27
+#-------------------------------
+[HGSS_HIKER,Michael]
+LoseText = 
+Pokemon = GEODUDE,25
+Pokemon = GRAVELER,25
+Pokemon = GOLEM,25
+#-------------------------------
 # Route 46
+#-------------------------------
+[HGSS_CAMPER,Ted]
+LoseText = 
+Pokemon = MANKEY,17 
+#-------------------------------
+[HGSS_PICNICKER,Erin]
+LoseText = 
+Pokemon = PONYTA,17
+Pokemon = ODDISH,14
+#-------------------------------
+[HGSS_PICNICKER,Erin,1]
+LoseText = 
+Pokemon = GLOOM,32
+Pokemon = RAPIDASH,41
+#-------------------------------
+[HGSS_PICNICKER,Erin,2]
+LoseText = 
+Pokemon = BELLOSSOM,46
+Pokemon = RAPIDASH,48
+Pokemon = SUNFLORA,39
+#-------------------------------
+[HGSS_PICNICKER,Erin,3]
+LoseText = 
+Pokemon = CHERRIM,42
+Pokemon = SUNFLORA,46
+Pokemon = RAPIDASH,53
+Pokemon = BELLOSSOM,49
+#-------------------------------
+[HGSS_HIKER,Bailey]
+LoseText = 
+Pokemon = GEODUDE,13
+Pokemon = GEODUDE,13
+Pokemon = GEODUDE,13
+Pokemon = GEODUDE,13
+Pokemon = GEODUDE,13
 #-------------------------------
 # Route 27
 #-------------------------------
-# Tohjo Falls
+[HGSS_ACETRAINER_F,Megan]
+LoseText = 
+Pokemon = BULBASAUR,32
+Pokemon = IVYSAUR,32
+Pokemon = VENUSAUR,32
+#-------------------------------
+[HGSS_ACETRAINER_M,Blake]
+LoseText = 
+Pokemon = MAGNETON,33
+Pokemon = QUAGSIRE,31
+Pokemon = EXEGGCUTE,31
+#-------------------------------
+[HGSS_BIRDKEEPER,Jose]
+LoseText = 
+Pokemon = FARFETCHD,40
+#-------------------------------
+[HGSS_BIRDKEEPER,Jose,1]
+LoseText = 
+Pokemon = FARFETCHD,44 
+#-------------------------------
+[HGSS_BIRDKEEPER,Jose,2]
+LoseText = 
+Pokemon = FARFETCHD,38
+Pokemon = FARFETCHD,45
+#-------------------------------
+[HGSS_BIRDKEEPER,Jose,3]
+LoseText = 
+Pokemon = FARFETCHD,50
+Pokemon = FARFETCHD,52
+Pokemon = FARFETCHD,53
+#-------------------------------
+[HGSS_ACETRAINER_M,Brian]
+LoseText = 
+Pokemon = MAREEP,35 
+#-------------------------------
+[HGSS_PSYCHIC,Eli]
+LoseText = 
+Pokemon = STARMIE,30
+Pokemon = EXEGGCUTE,30
+Pokemon = GIRAFARIG,34
+#-------------------------------
+[HGSS_ACETRAINER_F,Reena]
+LoseText = 
+Pokemon = GROWLITHE,36
+Pokemon = NIDORINA,33
+Pokemon = STARYU,36
+#-------------------------------
+[HGSS_ACETRAINER_F,Reena,1]
+LoseText = 
+Pokemon = GROWLITHE,38
+Pokemon = NIDORINA,36
+Pokemon = STARYU,38
+#-------------------------------
+[HGSS_ACETRAINER_F,Reena,2]
+LoseText = 
+Pokemon = ARCANINE,47
+Pokemon = NIDOQUEEN,43
+Pokemon = STARMIE,47
+#-------------------------------
+[HGSS_ACETRAINER_F,Reena,3]
+LoseText = 
+Pokemon = ARCANINE,47
+Pokemon = NIDOQUEEN,43
+Pokemon = STARMIE,47
+#-------------------------------
+# Tohjo Falls 
+#-------------------------------
+[HGSS_ROCKETBOSS,Giovanni]
+LoseText = 
+Pokemon = NIDOKING,42
+	Moves = SHADOWCLAW,FOCUSENERGY,FURYATTACK,DOUBLEKICK
+Pokemon = HONCHKROW,43
+	AbilityIndex = 1
+	Moves = NASTYPLOT,SWAGGER,DARKPULSE,SHADOWBALL
+Pokemon = NIDOQUEEN,46
+	Moves = CRUNCH,ROAR,EARTHPOWER,SUPERPOWER
+Pokemon = KANGASKHAN,40
+	AbilityIndex = 1
+	Moves = OUTRAGE,LEER,SUCKERPUNCH,DIZZYPUNCH
 #-------------------------------
 # Route 26
 #-------------------------------
+[HGSS_FISHERMAN,Scott]
+LoseText = 
+Pokemon = QWILFISH,30
+Pokemon = QWILFISH,30
+Pokemon = SEAKING,34
+#-------------------------------
+[HGSS_PSYCHIC,Vernon]
+LoseText = 
+Pokemon = ESPEON,36 
+#-------------------------------
+[HGSS_ACETRAINER_F,Joyce]
+LoseText = 
+Pokemon = PIKACHU,36
+Pokemon = BLASTOISE,36
+#-------------------------------
+[HGSS_ACETRAINER_M,Gaven]
+LoseText = 
+Pokemon = VICTREEBEL,32
+Pokemon = KINGLER,32
+Pokemon = FLAREON,32
+#-------------------------------
+[HGSS_ACETRAINER_M,Gaven,1]
+LoseText = 
+Pokemon = VICTREEBEL,34
+Pokemon = KINGLER,34
+Pokemon = FLAREON,34
+#-------------------------------
+[HGSS_ACETRAINER_M,Gaven,2]
+LoseText = 
+Pokemon = VICTREEBEL,38
+Pokemon = KINGLER,39
+Pokemon = FLAREON,38
+#-------------------------------
+[HGSS_ACETRAINER_M,Gaven,3]
+LoseText = 
+Pokemon = VICTREEBEL,52
+Pokemon = KINGLER,49
+Pokemon = FLAREON,50
+#-------------------------------
+[HGSS_ACETRAINER_M,Jake]
+LoseText = 
+Pokemon = PARASECT,33
+Pokemon = GOLDUCK,35
+Pokemon = VAPOREON,33
+#-------------------------------
+[HGSS_ACETRAINER_F,Jamie]
+LoseText = 
+Pokemon = RAPIDASH,36
+Pokemon = FLAAFFY,31
+#-------------------------------
+[HGSS_ACETRAINER_F,Jamie,1]
+LoseText = 
+Pokemon = RAPIDASH,38
+Pokemon = AMPHAROS,37
+#-------------------------------
+[HGSS_ACETRAINER_F,Jamie,2]
+LoseText = 
+Pokemon = RAPIDASH,42
+Pokemon = AMPHAROS,40
+#-------------------------------
+[HGSS_ACETRAINER_F,Jamie,3]
+LoseText = 
+Pokemon = RAPIDASH,56
+Pokemon = AMPHAROS,59
+#-------------------------------
 # Victory Road
 #-------------------------------
+[HGSS_PKMNTR_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
 # Pokemon League
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_,]
+LoseText = 
+Pokemon = 
+Pokemon = 
 #-------------------------------
 
