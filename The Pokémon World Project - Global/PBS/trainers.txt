@@ -6046,46 +6046,329 @@ Pokemon = AMPHAROS,59
 #-------------------------------
 # Victory Road
 #-------------------------------
-[HGSS_PKMNTR_,]
-LoseText = 
-Pokemon = 
-Pokemon = 
+[HGSS_PKMNTR_Silver,Silver,9]
+LoseText = ...I couldn't win...
+Pokemon = SNEASEL,36
+	Moves = FAINTATTACK,ICYWIND,FURYSWIPES,QUICKATTACK
+Pokemon = GOLBAT,38
+	Moves = BITE,CONFUSERAY,AIRCUTTER,ASTONISH
+Pokemon = MAGNETON,37
+	Moves = SPARK,THUNDERWAVE,SUPERSONIC,MAGNETBOMB
+Pokemon = KADABRA,37
+	Moves = REFLECT,DISABLE,PSYBEAM,RECOVER
+Pokemon = HAUNTER,37
+	Moves = CURSE,MEANLOOK,CONFUSERAY,SHADOWBALL
+Pokemon = MEGANIUM,40
+	Moves = REFLECT,PETALDANCE,POISONPOWDER,SYNTHESIS
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
-Pokemon = 
+[HGSS_PKMNTR_Silver,Silver,10]
+LoseText = ...I couldn't win...
+Pokemon = SNEASEL,36
+	Moves = FAINTATTACK,ICYWIND,FURYSWIPES,QUICKATTACK
+Pokemon = GOLBAT,38
+	Moves = BITE,CONFUSERAY,AIRCUTTER,ASTONISH
+Pokemon = MAGNETON,37
+	Moves = SPARK,THUNDERWAVE,SUPERSONIC,MAGNETBOMB
+Pokemon = KADABRA,37
+	Moves = REFLECT,DISABLE,PSYBEAM,RECOVER
+Pokemon = HAUNTER,37
+	Moves = CURSE,MEANLOOK,CONFUSERAY,SHADOWBALL
+Pokemon = TYPHLOSION,40
+	Moves = LAVAPLUME,SWIFT,FLAMEWHEEL,QUICKATTACK
 #-------------------------------
-[HGSS_,]
-LoseText = 
-Pokemon = 
-Pokemon = 
+[HGSS_PKMNTR_Silver,Silver,11]
+LoseText = ...I couldn't win...
+Pokemon = SNEASEL,36
+	Moves = FAINTATTACK,ICYWIND,FURYSWIPES,QUICKATTACK
+Pokemon = GOLBAT,38
+	Moves = BITE,CONFUSERAY,AIRCUTTER,ASTONISH
+Pokemon = MAGNETON,37
+	Moves = SPARK,THUNDERWAVE,SUPERSONIC,MAGNETBOMB
+Pokemon = KADABRA,37
+	Moves = REFLECT,DISABLE,PSYBEAM,RECOVER
+Pokemon = HAUNTER,37
+	Moves = CURSE,MEANLOOK,CONFUSERAY,SHADOWBALL
+Pokemon = FERALIGATR,40
+	Moves = WATERFALL,SLASH,ICEFANG,CRUNCH
 #-------------------------------
 # Pokemon League
 #-------------------------------
-[HGSS_,]
+[HGSS_ELITEFOUR_Will,Will]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = I... I can't...believe it...
+Pokemon = XATU,40
+	Moves = UTURN,MEFIRST,PSYCHIC,CONFUSERAY
+Pokemon = JYNX,41
+	Moves = PSYCHIC,LOVELYKISS,ICEPUNCH,DOUBLESLAP
+Pokemon = SLOWBRO,41
+	AbilityIndex = 1
+	Moves = CURSE,AMNESIA,WATERPULSE,PSYCHIC
+Pokemon = EXEGGUTOR,41
+	Moves = REFLECT,PSYCHIC,EGGBOMB,HYPNOSIS
+Pokemon = XATU,42
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = PSYCHIC,CONFUSERAY,OMINOUSWIND,AERIALACE
+#-------------------------------
+[HGSS_ELITEFOUR_Koga,Koga]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Ah! 		You have proven your worth!
+Pokemon = ARIADOS,40
+	AbilityIndex = 1
+	Moves = SPIDERWEB,BATONPASS,GIGADRAIN,POISONJAB
+Pokemon = FORRETRESS,43
+	AbilityIndex = 1
+	Moves = SWIFT,EXPLOSION,PROTECT,TOXICSPIKES
+Pokemon = MUK,42
+	AbilityIndex = 1
+	Item = BLACKSLUDGE
+	Moves = GUNKSHOT,MINIMIZE,SCREECH,TOXIC
+Pokemon = VENOMOTH,41
+	Moves = PSYCHIC,GUST,SUPERSONIC,TOXIC
+Pokemon = CROBAT,44
+	Item = SITRUSBERRY
+	Moves = QUICKATTACK,WINGATTACK,DOUBLETEAM,POISONFANG
+#-------------------------------
+[HGSS_ELITEFOUR_Bruno,Bruno]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Why?!	 ...How could we lose?
+Pokemon = HITMONTOP,42
+	AbilityIndex = 1
+	Moves = DIG,QUICKATTACK,COUNTER,TRIPLEKICK
+Pokemon = HITMONLEE,42
+	AbilityIndex = 1
+	Moves = BLAZEKICK,FOCUSENERGY,HIGHJUMPKICK,SWAGGER
+Pokemon = HITMONCHAN,42
+	AbilityIndex = 1
+	Moves = ICEPUNCH,THUNDERPUNCH,FIREPUNCH,BULLETPUNCH
+Pokemon = ONIX,43
+	AbilityIndex = 1
+	Moves = SANDSTORM,EARTHQUAKE,ROCKSLIDE,DRAGONBREATH
+Pokemon = MACHAMP,46
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = ROCKSLIDE,CROSSCHOP,REVENGE,FORESIGHT
+#-------------------------------
+[HGSS_ELITEFOUR_Karen,Karen]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Well, aren’t you good. I like that in a Trainer.
+Pokemon = UMBREON,42
+	Moves = DOUBLETEAM,CONFUSERAY,FAINTATTACK,PAYBACK
+Pokemon = VILEPLUME,42
+	Moves = STUNSPORE,PETALDANCE,ACID,MOONLIGHT
+Pokemon = GENGAR,45
+	Moves = FOCUSBLAST,DESTINYBOND,SPITE,LICK
+Pokemon = MURKROW,44
+	AbilityIndex = 1
+	Moves = SUCKERPUNCH,FAINTATTACK,PLUCK,WHIRLWIND
+Pokemon = HOUNDOOM,47
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = NASTYPLOT,DARKPULSE,FLAMETHROWER,CRUNCH
+#-------------------------------
+[HGSS_CHAMPION,Lance]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = ...It's over.
+Pokemon = GYARADOS,46
+	Moves = DRAGONPULSE,FLAIL,WATERFALL,ICEFANG
+Pokemon = DRAGONITE,49
+	Moves = THUNDERWAVE,HYPERBEAM,THUNDER,DRAGONRUSH
+Pokemon = DRAGONITE,49
+	Moves = THUNDERWAVE,HYPERBEAM,BLIZZARD,DRAGONRUSH
+Pokemon = AERODACTYL,48
+	Moves = THUNDERFANG,ROCKSLIDE,AERIALACE,CRUNCH
+Pokemon = CHARIZARD,48
+	Moves = AIRSLASH,FIREFANG,SHADOWCLAW,DRAGONCLAW
+Pokemon = DRAGONITE,50
+	Item = SITRUSBERRY
+	Moves = SAFEGUARD,OUTRAGE,FIREBLAST,HYPERBEAM
+#-------------------------------
+# Gym Leader/E4 Rematches
+#-------------------------------
+[HGSS_LEADER_Falkner,Falkner,1]
 LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
 Pokemon = 
 Pokemon = 
 #-------------------------------
-[HGSS_,]
+[HGSS_LEADER_Bugsy,Bugsy,1]
 LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
 Pokemon = 
 Pokemon = 
 #-------------------------------
-[HGSS_,]
+[HGSS_LEADER_Whitney,Whitney,1]
 LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
 Pokemon = 
 Pokemon = 
 #-------------------------------
-[HGSS_,]
+[HGSS_LEADER_Morty,Morty,1]
 LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
 Pokemon = 
 Pokemon = 
 #-------------------------------
-[HGSS_,]
+[HGSS_LEADER_Jasmine,Jamsine,1]
 LoseText = 
 Pokemon = 
 Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_LEADER_Chuck,Chuck,1]
+LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_LEADER_Pryce,Pryce,1]
+LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_LEADER_Clair,Clair,1]
+LoseText = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+Pokemon = 
+#-------------------------------
+[HGSS_ELITEFOUR_Will,Will,1]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = I... I can't...beleive it...
+Pokemon = BRONZONG,58
+	AbilityIndex = 1
+	Moves = GRAVITY,REFLECT,PAYBACK,PSYCHIC
+Pokemon = JYNX,60
+	AbilityIndex = 1
+	Moves = FAKETEARS,LOVELYKISS,DREAMEATER,BLIZZARD
+Pokemon = GRUMPIG,59
+	AbilityIndex = 1
+	Moves = CONFUSERAY,SIGNALBEAM,POWERGEM,PSYCHIC
+Pokemon = SLOWBRO,60
+	AbilityIndex = 1
+	Moves = CURSE,AMENSIA,BODYSLAM,PSYCHIC
+Pokemon = GARDEVOIR,61
+	AbilityIndex = 1
+	Moves = CALMMIND,CHARGEBEAM,FOCUSBLAST,PSYCHIC
+Pokemon = XATU,62
+	AbilityIndex = 1
+	Item = SITRUSBERRY
+	Moves = CONFUSERAY,QUICKATTACK,SHADOWBALL,PSYCHIC
+#-------------------------------
+[HGSS_ELITEFOUR_Koga,Koga,1]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Ah! 		You have proven your worth!
+Pokemon = SKUNTANK,61
+	AbilityIndex = 1
+	Moves = TOXIC,DIG,SUCKERPUNCH,EXPLOSION
+Pokemon = VENOMOTH,63
+	AbilityIndex = 1
+	Moves = BATONPASS,SILVERWIND,DOUBLETEAM,PSYCHIC
+Pokemon = TOXICROAK,60
+	AbilityIndex = 1
+	Moves = SWAGGER,XSCISSOR,CROSSCHOP,GUNKSHOT
+Pokemon = SWALOT,62
+	Item = LEFTOVERS
+	AbilityIndex = 1
+	Moves = SLUDGEBOMB,AMNESIA,PAINSPLIT,YAWN
+Pokemon = CROBAT,64
+	Moves = FLY,CROSSPOISON,MEANLOOK,TOXIC
+Pokemon = MUK,62
+	AbilityIndex = 1
+	Item = BLACKSLUDGE
+	Moves = MINIMIZE,SCREECH,SWAGGER,TOXIC
+#-------------------------------
+[HGSS_ELITEFOUR_Bruno,Bruno,1]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Why?!	 ...How could we lose?
+Pokemon = HITMONTOP,62
+	AbilityIndex = 1
+	Moves = CLOSECOMBAT,EARTHQUAKE,COUNTER,QUICKATTACK
+Pokemon = HITMONLEE,61
+	AbilityIndex = 1
+	Moves = CLOSECOMBAT,BLAZEKICK,REVERSAL,SWAGGER
+Pokemon = HITMONCHAN,61
+	AbilityIndex = 1
+	Moves = CLOSECOMBAT,DRAINPUNCH,BULLETPUNCH,SUBSTITUTE
+Pokemon = HARIYAMA,62
+	Item = SITRUSBERRY
+	AbilityIndex = 1
+	Moves = BULKUP,LOWKICK,PAYBACK,BULLETPUNCH
+Pokemon = MACHAMP,64
+	AbilityIndex = 1
+	Moves = DYNAMICPUNCH,STONEEDGE,BULLETPUNCH,FORESIGHT
+Pokemon = LUCARIO,64
+	AbilityIndex = 1
+	Moves = CLOSECOMBAT,IRONTAIL,COUNTER,EXTREMESPEED
+#-------------------------------
+[HGSS_ELITEFOUR_Karen,Karen,1]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Well, aren’t you good. I like that in a Trainer.
+Pokemon = WEAVILE,62
+	Moves = ICEPUNCH,NIGHTSLASH,LOWKICK,ICESHARD
+Pokemon = ABSOL,62
+	AbilityIndex = 1
+	Moves = DETECT,PERISHSONG,NIGHTSLASH,PSYCHOCUT
+Pokemon = SPIRITOMB,62
+	Moves = CURSE,CONFUSERAY,PAINSPLIT,SUCKERPUNCH
+Pokemon = HOUNDOOM,63
+	AbilityIndex = 1
+	Moves = NASTYPLOT,DARKPULSE,FLAMETHROWER,SLUDGEBOMB
+Pokemon = HONCHKROW,64
+	AbilityIndex = 1
+	Moves = THUNDERWAVE,WHIRLWIND,DRILLPECK,SUCKERPUNCH
+Pokemon = UMBREON,64
+	Item = SITRUSBERRY
+	Moves = CONFUSERAY,CURSE,PAYBACK,SUCKERPUNCH
+#-------------------------------
+[HGSS_CHAMPION,Lance,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = ...It's over.
+Pokemon = SALAMENCE,72
+	Moves = DRAGONCLAW,FLAMETHROWER,SHADOWCLAW,REST
+Pokemon = GYARADOS,68
+	Moves = DRAGONDANCE,WATERFALL,ICEFANG,THUNDERWAVE
+Pokemon = GARCHOMP,72
+	Moves = OUTRAGE,SWORDSDANCE,EARTHQUAKE,ROAR
+Pokemon = ALTARIA,73
+	Moves = DOUBLETEAM,DRAGONBREATH,PERISHSONG,HYPERBEAM
+Pokemon = CHARIZARD,68
+	Moves =	FLAMETHROWER,HYPERBEAM,DRAGONCLAW,AIRSLASH
+Pokemon = DRAGONITE,75
+	Item = SITRUSBERRY
+	Moves = DRACOMETEOR,SAFEGUARD,FIREBLAST,HYPERBEAM
+#-------------------------------
+# Gen2 Kanto Placeholder
+#-------------------------------
+#
+#
+#	EMERALD TRAINERS
+#
+#
 #-------------------------------
 
